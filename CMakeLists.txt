@@ -3,4 +3,5 @@ project(PatientsManage C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(PatientsManage main.c)
+add_executable(PatientsManage Src/main.c
+        Inc/main.h)
